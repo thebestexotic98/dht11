@@ -1,6 +1,16 @@
 Room Thermometer Using DHT11 Sensor
 
-Introduction
+GROUP NAME: CAD Maniac
+
+MEMBERS:
+1. ASHRAF AMININ BIN ARMAN ALIM (A17KE0034)
+2. MAHMUDA BINTI ISMAIL (A17KE5295)
+3. NOR FARAH AFIQAH BINTI ABDUL RAHIM (A17KE0216)
+4. NUR IRDINA BINTI MOHD SHAHRIR (A17KE0229)
+
+LECTURER’S: PM MUNIM AHMAD ZABIDI
+
+Introduction:
 
 The purpose of this project is to measure the room humidity and temperature based on CPLD implementation. The humidity and temperature sensor used in this project 
 is DHT11 sensor as the sensor is a two-in-one sensor for temperature and humidity measurement. This sensor has three pins, namely VCC, GND and DATA.
@@ -12,9 +22,6 @@ the sensor are communicating, the bus is in the communication state. A complete 
 
 
 Figure 1: Timing Diagram of the DHT11. Link: https://imgur.com/a/Hi1zDhX
-
- 
-
 
 
 1.    First, the microcontroller configures the IO of the drive bus as an output mode and ready to send data to DHT11 sensor.
@@ -59,9 +66,10 @@ DHT11 Sensor Specification:
 7. Accuracy: Plus minus 1 degree celcius and Plus minus 1%
 
 
-Flowchart of Overall Project
+Flowchart of Overall Project:
 
 Figure 2: Flowchart of overall room thermometer project. Link: https://imgur.com/a/FyOmKHj
+
 
 Methodology: From the coding
 
@@ -81,3 +89,12 @@ the 8-bit value of humidity reading, next unit will display the value of
 fractional humidity reading. The third unit of the 7-segment will display the
 8-bit temperature reading value and the last one displays the 8-bit fractional
 temperature reading.
+
+Result & Discussion:
+1. As you can see, we give two different coding (DHT11 sensor and 4 digit 7-segment display).
+2. From the simulation, we could not receive any result from the DHT11 sensor but we receive the simulation result for the 7-segment display. This is the link for the simulation picture: https://imgur.com/a/h9bNcB0
+3. For the hardware part, as you can see we have a problem for dht11 sensor to work because it cannot receive signal from the microcontroller to work, so dht11 sensor
+cannot function.
+4. For the 4-digit 7-segment display, we actually make it work but due to hardware troubleshooting, we lost the output.
+5. Then, we try to combine it together into one code, but still when we uploaded the code to the CPLD, it did not working.
+6. So, this youtube video will show the progress of our project: https://youtu.be/nDr88O4JYqg
