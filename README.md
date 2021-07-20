@@ -93,7 +93,7 @@ temperature reading.
 Result & Discussion:
 1. As you can see, we give two different coding (DHT11 sensor and 4 digit 7-segment display).
 2. From the simulation, we could not receive any result from the DHT11 sensor but we receive the simulation result for the 7-segment display. This is the link for the simulation picture: https://imgur.com/a/h9bNcB0
-3. For the hardware part, as you can see we have a problem for dht11 sensor to work because it cannot receive signal from the microcontroller to work, so dht11 sensor
+3. For the hardware part, as you can see we have a problem for dht11 sensor to work because it cannot receive signal from the microcontroller, so dht11 sensor
 cannot function.
 4. For the 4-digit 7-segment display, we actually make it work but due to hardware troubleshooting, we lost the output.
 5. Then, we try to combine it together into one code, but still when we uploaded the code to the CPLD, it did not working.
