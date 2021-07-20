@@ -10,7 +10,7 @@ MEMBERS:
 
 LECTURER’S: PM MUNIM AHMAD ZABIDI
 
-Introduction:
+1.0 Introduction:
 
 The purpose of this project is to measure the room humidity and temperature based on CPLD implementation. The humidity and temperature sensor used in this project 
 is DHT11 sensor as the sensor is a two-in-one sensor for temperature and humidity measurement. This sensor has three pins, namely VCC, GND and DATA.
@@ -42,12 +42,12 @@ The data transfer from the DHT11 will be displayed through the 7-segment display
 There is a total of four 7-segment display used in this project. Each of the 7-segment display give different reading which are the 8-bit humidity reading,
 8-bit fractional humidity reading, 8-bit temperature reading and 8- bit fractional temperature reading. 
 
-Software:
+2.0 Software:
 
 The software used in this project is Quartus II 13.0 Web Edition.
 
 
-Hardware:
+3.0 Hardware:
 
 The hardware used in this project are listed below:
 1.     DHT11 Temperature Sensor
@@ -66,12 +66,12 @@ DHT11 Sensor Specification:
 7. Accuracy: Plus minus 1 degree celcius and Plus minus 1%
 
 
-Flowchart of Overall Project:
+4.0 Flowchart of Overall Project:
 
 Figure 2: Flowchart of overall room thermometer project. Link: https://imgur.com/a/FyOmKHj
 
 
-Methodology: From the coding
+5.0 Methodology:
 
 
 Firstly, the DHT11 sensor is configure by using the Verilog Code below to enable the
@@ -90,7 +90,7 @@ fractional humidity reading. The third unit of the 7-segment will display the
 8-bit temperature reading value and the last one displays the 8-bit fractional
 temperature reading.
 
-Result & Discussion:
+6.0 Result & Discussion:
 1. As you can see, we give two different coding (DHT11 sensor and 4 digit 7-segment display).
 2. From the simulation, we could not receive any result from the DHT11 sensor but we receive the simulation result for the 7-segment display. This is the link for the simulation output waveform: https://imgur.com/a/h9bNcB0
 3. For the hardware part, as you can see we have a problem for dht11 sensor to work because it cannot receive signal from the microcontroller, so dht11 sensor
@@ -101,3 +101,11 @@ microcontroller or CPLD.
 (means that it did not receive any input from the dht11 sensor). After that, due to troubleshooting of the hardware, we lost again the output.
 6. So, this youtube video will show the progress of our project: https://youtu.be/nDr88O4JYqg . This video just show the simulation of the 7-segment display and the
 hardware progress for 7-segment display.
+
+7.0 Project References
+[1] Verilog code dynamically displayed by 4-digit 7-segment common cathode digital tube - Programmer Sought. (2020). Programmersought.com. https://www.programmersought.com/article/97147360817/
+[2] [FPGA Tutorial] Seven-Segment LED Display on Basys 3 FPGA. (2017). Fpga4student.com. https://www.fpga4student.com/2017/09/seven-segment-led-display-controller-basys3-fpga.html
+[3] DHT11–Temperature and Humidity Sensor. (2018). Components101. https://components101.com/sensors/dht11-temperature-sensor
+[4] [FPGA] Verilog code to realize temperature and humidity sensor DHT11 - Programmer Sought. (2020). Programmersought.com. https://www.programmersought.com/article/90045264630/
+[5] Temperature and humidity measurement based on FPGA and DHT11 - Programmer Sought. (2018). Programmersought.com. https://www.programmersought.com/article/38214979535/
+[6] FPGA driver code for DHT11 temperature and humidity sensor - Programmer Sought. (2020). Programmersought.com. https://www.programmersought.com/article/58114878413/
