@@ -11,7 +11,7 @@ the sensor are communicating, the bus is in the communication state. A complete 
 
 
 
-Figure 1: Timing Diagram of the DHT11.
+Figure 1: Timing Diagram of the DHT11. Link: https://imgur.com/a/Hi1zDhX
 
  
 
@@ -50,30 +50,18 @@ The hardware used in this project are listed below:
 
 DHT11 Sensor Specification:
 
-Operating Voltage: 3.5V to 5.5V
-Operating Current: 0.3mA (measuring), 60A (standby)
-Output: Serial data
-Temperature Range: 0 to 50
-Humidity Range: 20 to 90
-Resolution: Both Temperature and Humidity are 16-bit
-Accuracy: Plus minus 1 degree celcius and Plus minus 1%
+1. Operating Voltage: 3.5V to 5.5V
+2. Operating Current: 0.3mA (measuring), 60A (standby)
+3. Output: Serial data
+4. Temperature Range: 0 to 50
+5. Humidity Range: 20 to 90
+6. Resolution: Both Temperature and Humidity are 16-bit
+7. Accuracy: Plus minus 1 degree celcius and Plus minus 1%
 
 
 Flowchart of Overall Project
 
-
-
-
-
-
-
-
-
- 
-
-
-
-Figure 2: Flowchart of overall room thermometer project.
+Figure 2: Flowchart of overall room thermometer project. Link: https://imgur.com/a/FyOmKHj
 
 Methodology: From the coding
 
