@@ -56,7 +56,7 @@ Output: Serial data
 Temperature Range: 0 to 50
 Humidity Range: 20 to 90
 Resolution: Both Temperature and Humidity are 16-bit
-Accuracy:  and  
+Accuracy: Plus minus 1 degree celcius and Plus minus 1%
 
 
 Flowchart of Overall Project
