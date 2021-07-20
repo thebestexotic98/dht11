@@ -103,9 +103,9 @@ microcontroller or CPLD.
 hardware progress for 7-segment display.
 
 7.0 Project References
-[1] Verilog code dynamically displayed by 4-digit 7-segment common cathode digital tube - Programmer Sought. (2020). Programmersought.com. https://www.programmersought.com/article/97147360817/
-[2] [FPGA Tutorial] Seven-Segment LED Display on Basys 3 FPGA. (2017). Fpga4student.com. https://www.fpga4student.com/2017/09/seven-segment-led-display-controller-basys3-fpga.html
-[3] DHT11–Temperature and Humidity Sensor. (2018). Components101. https://components101.com/sensors/dht11-temperature-sensor
-[4] [FPGA] Verilog code to realize temperature and humidity sensor DHT11 - Programmer Sought. (2020). Programmersought.com. https://www.programmersought.com/article/90045264630/
-[5] Temperature and humidity measurement based on FPGA and DHT11 - Programmer Sought. (2018). Programmersought.com. https://www.programmersought.com/article/38214979535/
-[6] FPGA driver code for DHT11 temperature and humidity sensor - Programmer Sought. (2020). Programmersought.com. https://www.programmersought.com/article/58114878413/
+1. Verilog code dynamically displayed by 4-digit 7-segment common cathode digital tube - Programmer Sought. (2020). Programmersought.com. https://www.programmersought.com/article/97147360817/
+2. [FPGA Tutorial] Seven-Segment LED Display on Basys 3 FPGA. (2017). Fpga4student.com. https://www.fpga4student.com/2017/09/seven-segment-led-display-controller-basys3-fpga.html
+3. DHT11–Temperature and Humidity Sensor. (2018). Components101. https://components101.com/sensors/dht11-temperature-sensor
+4. [FPGA] Verilog code to realize temperature and humidity sensor DHT11 - Programmer Sought. (2020). Programmersought.com. https://www.programmersought.com/article/90045264630/
+5. Temperature and humidity measurement based on FPGA and DHT11 - Programmer Sought. (2018). Programmersought.com. https://www.programmersought.com/article/38214979535/
+6. FPGA driver code for DHT11 temperature and humidity sensor - Programmer Sought. (2020). Programmersought.com. https://www.programmersought.com/article/58114878413/
