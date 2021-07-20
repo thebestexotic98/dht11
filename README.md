@@ -97,4 +97,5 @@ Result & Discussion:
 cannot function.
 4. For the 4-digit 7-segment display, we actually make it work but due to hardware troubleshooting, we lost the output.
 5. Then, we try to combine it together into one code, but still when we uploaded the code to the CPLD, it did not working.
-6. So, this youtube video will show the progress of our project: https://youtu.be/nDr88O4JYqg
+6. So, this youtube video will show the progress of our project: https://youtu.be/nDr88O4JYqg . This video just show the simulation of the 7-segment display and the
+hardware progress for 7-segment display.
